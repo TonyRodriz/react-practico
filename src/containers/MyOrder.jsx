@@ -24,6 +24,7 @@ const MyOrder = () => {
 				{state.cart.map(product => (
 					<OrderItem product={product} key={`orderItem-${product.id}`} />
 				))}
+				</div>
 				<div className="order">
 					<p>
 						<span>Total</span>
@@ -33,7 +34,7 @@ const MyOrder = () => {
 				<button className="primary-button">
 					Checkout
 				</button>
-			</div>
+			
 		</aside>
 	);
 }
