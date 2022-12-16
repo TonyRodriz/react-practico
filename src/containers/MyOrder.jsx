@@ -1,4 +1,4 @@
-import React, { useContext} from 'react';
+import React, { useContext } from 'react';
 import OrderItem from '@components/OrderItem';
 import '@styles/MyOrder.scss';
 import AppContext from '../context/AppContext';
